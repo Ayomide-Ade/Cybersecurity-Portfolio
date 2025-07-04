@@ -77,14 +77,14 @@ Control types include, but are not limited to:
 
 | Control                | ✅ Yes | ❌ No | Explanation |
 |------------------------|:------:|:-----:|-------------|
-| Least Privilege        |        | ✅    | All employees have access to customer data; access should be restricted. |
-| Disaster Recovery Plan |        | ✅    | No disaster recovery plan in place to ensure business continuity. |
+| Least Privilege        |        | ❌    | All employees have access to customer data; access should be restricted. |
+| Disaster Recovery Plan |        | ❌    | No disaster recovery plan in place to ensure business continuity. |
 | Firewall               | ✅     |       | A firewall exists to block traffic based on defined security rules. |
 | Password Policies      |        |  ❌   | Password policy exists but lacks complexity and enforcement. |
 | Antivirus              | ✅     |       | Antivirus software is installed and monitored by IT. |
-| Backups                |        | ✅    | No backups are in place; data is at risk in the event of breach. |
-| Encryption             |        | ✅    | Encryption is not implemented for customer or credit card data. |
-| IDS                    |        | ✅    | No intrusion detection system is currently installed. |
+| Backups                |        | ❌    | No backups are in place; data is at risk in the event of breach. |
+| Encryption             |        | ❌   | Encryption is not implemented for customer or credit card data. |
+| IDS                    |        | ❌    | No intrusion detection system is currently installed. |
 | Storefront             | ✅     |       | Storefront is physically secured with locks and monitored. |
 | CCTV                   | ✅     |       | CCTV surveillance is active and functioning. |
 | Fire Detection         | ✅     |       | Fire detection and prevention systems are in place. |
@@ -95,8 +95,8 @@ Control types include, but are not limited to:
 |-----------------------------------------------------------------------------|:---:|:---:|-------------|
 | Only authorized users have access to customers’ credit card information     | ✅ |     | Access now limited to authorized personnel only. |
 | Credit card data is stored/processed internally in a secure environment     | ✅ |     | Credit card data is handled in a secure internal setup. |
-| Encryption procedures are implemented to secure credit card data            |     | ✅ | Encryption has not yet been implemented. |
-| Secure password management policies are adopted                             |     | ✅ | Weak policies exist; no centralized password manager in place. |
+| Encryption procedures are implemented to secure credit card data            |     | ❌ | Encryption has not yet been implemented. |
+| Secure password management policies are adopted                             |     | ❌ | Weak policies exist; no centralized password manager in place. |
 
 ## General Data Protection Regulation (GDPR)
 
@@ -104,17 +104,17 @@ Control types include, but are not limited to:
 |------------------------------------------------------------|:---:|:---:|-------------|
 | E.U. customers’ data is kept private/secured               | ✅ |     | IT enforces privacy procedures for data protection. |
 | Breach notification plan (within 72 hours) is in place     | ✅ |     | IT has a plan to notify affected E.U. customers. |
-| Data is properly classified and inventoried                |     | ✅ | No formal data classification/inventory system exists. |
+| Data is properly classified and inventoried                |     | ❌ | No formal data classification/inventory system exists. |
 | Privacy policies, procedures, and processes are enforced   | ✅ |     | IT staff follow defined privacy protocols. |
 
 ## System and Organization Controls (SOC)
 
 | Best Practice                                                       | Yes | No  | Explanation |
 |----------------------------------------------------------------------|:---:|:---:|-------------|
-| User access policies are established                                 |     | ✅ | All employees can access all data; no proper access policy. |
-| Sensitive data (PII/SPII) is confidential/private                    |     | ✅ | Data is not encrypted or access restricted. |
+| User access policies are established                                 |     | ❌ | All employees can access all data; no proper access policy. |
+| Sensitive data (PII/SPII) is confidential/private                    |     | ❌ | Data is not encrypted or access restricted. |
 | Data integrity ensures data is consistent, complete, and accurate    | ✅ |     | Data integrity controls are in place and maintained. |
-| Data is available (to authorized users only)                         |     | ✅ | Access is not restricted to authorized users only. |
+| Data is available (to authorized users only)                         |     | ❌ | Access is not restricted to authorized users only. |
 
 ## 🔐 Security & Compliance Recommendations for Botium Toys
 
