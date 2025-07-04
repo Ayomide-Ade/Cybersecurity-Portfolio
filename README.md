@@ -1,4 +1,4 @@
-# 👋 Hi, I’m Adesina Ayomide (Ayallen1)
+# 👋 Hello, I’m Adesina Ayomide (Ayallen1)
 
 🎓 **Computer Science Student** at Babcock University  
 🔐 **Aspiring Cybersecurity Analyst**  
